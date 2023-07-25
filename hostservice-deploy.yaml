@@ -13,10 +13,10 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: caroline73/nodeapp:1.0
+        image: caroline73/hostservice:1.0
         resources:
           limits:
-            memory: "128Mi"
+            memory: "128Mic"
             cpu: "500m"
         ports:
         - containerPort: 8080
