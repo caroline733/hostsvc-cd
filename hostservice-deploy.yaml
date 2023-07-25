@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: caroline73/hostservice:1.0
+        images: caroline73/hostservice:4bce6f9cca6baae73a9acb8edf825e0c97f335e3
         resources:
           limits:
             memory: "128Mic"
